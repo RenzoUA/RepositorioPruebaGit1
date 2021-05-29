@@ -1,0 +1,411 @@
+.logo{
+    width: 30px;
+
+}
+.usuarioFoto{
+    
+    border: 2px solid white;
+}
+.camaraButton{
+    position:  absolute;
+    top: 160px;
+    left: 160px;
+         
+        
+}
+
+/* boton de foto */
+#flFoto_usu {
+ opacity: 0;
+ overflow: hidden;
+ }
+
+label[for="flFoto_usu"] {
+      box-shadow:   2px 2px 2px #888888;
+ font-size: 12px;
+ border-radius: 8px;
+ color: #fff;
+ background-color: #106BA0;
+ display: inline-block;
+ cursor: pointer;
+    margin: 10px 0px;
+ padding: 10px 10px ;
+ width: 100%;
+ height: auto;
+ text-align: center;
+ }
+
+
+
+
+.camaraButton a img{
+    width: 40px;
+    background: #F37C00;
+    border-radius: 50%;
+        border: 2px solid white;
+}
+.camaraButton a img:hover{
+   background: #FF9900;  
+        
+}
+
+/*imagenes  mant usus*/
+.content-all{
+    margin-top: -30px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.content-img{
+    width: 350px;
+    height: 180px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.content-img img{
+    width: 100%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-1{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(0,100,255,0.5);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    margin-left: -750px;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-2{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(0,100,255,0.5);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    margin-left: -800px;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.content-3{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(0,100,255,0.5);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-left: -800px;
+    margin-top: -500px;
+    -webkit-transition: all 900ms;
+    transition: all 900ms;
+    -webkit-box-shadow: 0px 1px 20px -5px black;
+    box-shadow: 0px 1px 20px -5px black;
+}
+
+.content-4{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: rgba(0,100,255,0.5);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-left: -850px;
+    margin-top: -500px;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.content-img:hover .content-1{
+    width: 222%;
+    -webkit-transition: all 900ms;
+    transition: all 900ms;
+}
+
+.content-img:hover .content-2{
+    width: 222%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-img:hover .content-3{
+    width: 700%;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.content-img:hover .content-4{
+    width: 222%;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.content-img:hover img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    opacity: 0.8;
+}
+
+.content-txt{
+    position: absolute;
+    top: 0;
+    width: 400px;
+    padding: 10px;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-txt h2{
+    font-size: 30px;
+    opacity: 0;
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-img:hover h2{
+    opacity: 1;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* ---- Tabla de ticket ----*/
+.tablaTickets .state_1{
+    background: #d9f3f3;
+}
+.tablaTickets .state_2{
+    background: #99c3e6;
+}
+.tablaTickets .state_3{
+    background: #b7fdb0;
+}
+.tablaTickets .state_4{
+    background: #e8bf9a;
+}
+.tablaTickets .state_5, .tablaTickets .state_6, .tablaTickets .state_7, .tablaTickets .state_8{
+    background: #5dca7f;
+}
+.tablaTickets .state_9{
+    background: #60a7a0;
+}
+.tablaTickets .state_10{
+    background: #fdff9e;
+}
+.tablaTickets .state_11{
+    background: #ceb15dcf;
+}
+.tablaTickets .state_12{
+    background: #c3c3c3;
+}
+.tablaTickets .state_13{
+    background: #fd9898;
+}
+
+
+/* ---- asignar tecnico ----*/
+
+.tecnicoActivo{
+    
+}
+
+.tecnicoDesactivo{
+    
+}
+
+.tecnicoOcupado{
+    
+}
+
+.tecnicoEspera{
+    
+}
+
+/* ---- boton nuevo -> + --*/
+.btn-nuevo:before{
+        content: 'NUEVO';
+    }
+@media (max-width: 767px){
+    .btn-nuevo:before{
+        content: '+';
+    }
+}
+
+
+ /*-------------------------SWITCHES-----------------------------------------*/
+.switch-button {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #b3b3b3;
+  width: 60px;
+  height: 27px;
+  padding: 4px;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.switch-button input[type="checkbox"] {
+  display: none;
+}
+.switch-button label {
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #FFF inset;
+  background-color: #ffffff;
+  margin: 0;
+  height: 19px;
+  width: 19px;
+  z-index: 1;
+  display: inline-block;
+  cursor: pointer;
+  background-clip: padding-box;
+}
+.switch-button label:before {
+  position: absolute;
+  font-size: 11px;
+  font-weight: 600;
+  z-index: 0;
+  content: "OFF";
+  right: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 27px;
+  top: 0;
+  text-align: right;
+  padding-right: 10px;
+  color: #ffffff;
+}
+.switch-button input[type="checkbox"]:checked + span {
+  background-color: #4285f4;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+}
+.switch-button input[type="checkbox"]:checked + span label {
+  float: right;
+  border-color: #2a75f3;
+}
+.switch-button input[type="checkbox"]:checked + span label:before {
+  position: absolute;
+  font-size: 11px;
+  font-weight: 600;
+  z-index: 0;
+  content: "ON";
+  color: #ffffff;
+  left: 0;
+  text-align: left;
+  padding-left: 10px;
+}
+.switch-button.switch-button-yesno label:before {
+  content: "NO";
+}
+.switch-button.switch-button-yesno input[type="checkbox"]:checked + span label:before {
+  content: "YES";
+}
+.switch-button.switch-button-xs {
+  height: 20px;
+  width: 53px;
+  line-height: 16px;
+  width: 50px;
+}
+.switch-button.switch-button-xs label {
+  height: 12px;
+  width: 12px;
+}
+.switch-button.switch-button-xs label:before {
+  line-height: 21px;
+}
+.switch-button.switch-button-sm {
+  height: 24px;
+  width: 57px;
+  line-height: 20px;
+}
+.switch-button.switch-button-sm label {
+  height: 16px;
+  width: 16px;
+}
+.switch-button.switch-button-sm label:before {
+  line-height: 25px;
+}
+.switch-button.switch-button-lg {
+  height: 30px;
+  width: 63px;
+  line-height: 26px;
+  width: 65px;
+}
+.switch-button.switch-button-lg label {
+  height: 22px;
+  width: 22px;
+}
+.switch-button.switch-button-lg label:before {
+  line-height: 31px;
+}
+.switch-button.switch-button-success {
+  background-color: #b3b3b3;
+}
+.switch-button.switch-button-success label {
+  border-color: #ababab;
+}
+.switch-button.switch-button-success input[type="checkbox"]:checked + span {
+  background-color: #34a853;
+}
+.switch-button.switch-button-success input[type="checkbox"]:checked + span label {
+  border-color: #2e9549;
+}
+.switch-button.switch-button-warning {
+  background-color: #b3b3b3;
+}
+.switch-button.switch-button-warning label {
+  border-color: #ababab;
+}
+.switch-button.switch-button-warning input[type="checkbox"]:checked + span {
+  background-color: #fbbc05;
+}
+.switch-button.switch-button-warning input[type="checkbox"]:checked + span label {
+  border-color: #e3aa04;
+}
+.switch-button.switch-button-danger {
+  background-color: #b3b3b3;
+}
+.switch-button.switch-button-danger label {
+  border-color: #ababab;
+}
+.switch-button.switch-button-danger input[type="checkbox"]:checked + span {
+  background-color: #ea4335;
+}
+.switch-button.switch-button-danger input[type="checkbox"]:checked + span label {
+  border-color: #e82e1e;
+}
+/*------------------------------------------------------------------
+  
+
+
+
+
+
